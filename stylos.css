@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    height: 60px;
+    background-color: green;
+    align-items: center;
+    box-shadow: 3px 3px 15px 0px rgba(0, 0, 0, 0.3);
+
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+a:hover {
+    color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 90px;
+    width: 100%;
+}
+
+.link {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
